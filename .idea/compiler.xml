@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="axs-test" />
         <module name="axstest" />
+        <module name="qastarting-test" />
       </profile>
     </annotationProcessing>
   </component>

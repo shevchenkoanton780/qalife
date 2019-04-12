@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c58da3c-77ca-4ef4-9302-9bf38298e8c6" name="Default" comment="" />
+    <list default="true" id="8c58da3c-77ca-4ef4-9302-9bf38298e8c6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/Xls_Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/HalfEbayTestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/unitTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/unitTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +25,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="393">
+              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -25,7 +34,7 @@
       <file leaf-file-name="Utility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/common/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="78">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,7 +46,8 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1415">
+              <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,20 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qastarting" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qastarting">
+      <file leaf-file-name="Xls_Reader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/common/Xls_Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unitTest1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/unit/unitTest1.java">
+      <file leaf-file-name="unitTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unit/unitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="15">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,6 +97,9 @@
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
@@ -106,10 +122,13 @@
         <option value="$PROJECT_DIR$/src/test/java/ui/SelenoidTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/RemoteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/SeleniumRemoteTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/common/Utility.java" />
         <option value="$PROJECT_DIR$/src/test/java/unit/unitTest1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/common/utility/Xls_Reader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/common/Xls_Reader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ui/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unit/unitTest.java" />
       </list>
     </option>
   </component>
@@ -120,71 +139,74 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1440" />
-    <option name="height" value="837" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-3" />
+    <option name="y" value="23" />
+    <option name="width" value="1301" />
+    <option name="height" value="836" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="qastarting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qastarting" type="462c0819:PsiDirectoryNode" />
+              <item name="qastarting_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qastarting_repo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qastarting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qastarting" type="462c0819:PsiDirectoryNode" />
+              <item name="qastarting_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qastarting_repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qastarting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qastarting" type="462c0819:PsiDirectoryNode" />
+              <item name="qastarting_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qastarting_repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qastarting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qastarting" type="462c0819:PsiDirectoryNode" />
+              <item name="qastarting_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qastarting_repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qastarting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qastarting" type="462c0819:PsiDirectoryNode" />
+              <item name="qastarting_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qastarting_repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qastarting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qastarting" type="462c0819:PsiDirectoryNode" />
+              <item name="qastarting_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qastarting_repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qastarting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qastarting" type="462c0819:PsiDirectoryNode" />
+              <item name="qastarting_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qastarting_repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,19 +217,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/webdrivers" />
-      <recent name="$PROJECT_DIR$/src/test/java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/common" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="common" />
+      <recent name="common.utility" />
       <recent name="ui" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/common" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/webdrivers" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+  <component name="RunManager" selected="TestNG.LoginPage.VerifyDropDownEbay">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -243,7 +268,6 @@
       <patterns />
     </configuration>
     <configuration name="LoginPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="axstest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ui.*" />
@@ -252,51 +276,22 @@
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ui" />
       <option name="MAIN_CLASS_NAME" value="ui.LoginPage" />
       <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="LoginPage.FormatToCurrency" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="axstest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.LoginPage" />
-      <option name="METHOD_NAME" value="FormatToCurrency" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
     </configuration>
@@ -343,6 +338,35 @@
       <option name="PACKAGE_NAME" value="ui" />
       <option name="MAIN_CLASS_NAME" value="ui.LoginPage" />
       <option name="METHOD_NAME" value="Login" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="LoginPage.VerifyDropDownEbay" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qastarting-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.LoginPage" />
+      <option name="METHOD_NAME" value="VerifyDropDownEbay" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -432,7 +456,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="unitTest1.FormatToCurrency" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="unitTest.FormatToCurrency" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="axs-test" />
       <extension name="coverage">
         <pattern>
@@ -444,7 +468,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.unitTest1" />
+      <option name="MAIN_CLASS_NAME" value="unit.unitTest" />
       <option name="METHOD_NAME" value="FormatToCurrency" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -462,19 +486,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.LoginPage.FormatToCurrency" />
       <item itemvalue="TestNG.LoginPage" />
       <item itemvalue="TestNG.LoginPage.GoogleTest1" />
-      <item itemvalue="TestNG.unitTest1.FormatToCurrency" />
+      <item itemvalue="TestNG.unitTest.FormatToCurrency" />
       <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.LoginPage.VerifyDropDownEbay" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.LoginPage.VerifyDropDownEbay" />
         <item itemvalue="TestNG.LoginPage" />
-        <item itemvalue="TestNG.unitTest1.FormatToCurrency" />
         <item itemvalue="TestNG.LoginPage.GoogleTest1" />
-        <item itemvalue="TestNG.LoginPage.FormatToCurrency" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.unitTest.FormatToCurrency" />
       </list>
     </recent_temporary>
   </component>
@@ -492,21 +516,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginPage - 2019.04.02 at 18h 44m 53s.xml">
-      <configuration name="LoginPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPage - 2019.04.02 at 18h 45m 37s.xml">
-      <configuration name="LoginPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPage_GoogleTest1 - 2019.04.02 at 19h 46m 11s.xml">
-      <configuration name="LoginPage.GoogleTest1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPage_GoogleTest1 - 2019.04.02 at 19h 46m 40s.xml">
-      <configuration name="LoginPage.GoogleTest1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPage_GoogleTest1 - 2019.04.02 at 19h 55m 11s.xml">
-      <configuration name="LoginPage.GoogleTest1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginPage_GoogleTest1 - 2019.04.02 at 19h 55m 49s.xml">
       <configuration name="LoginPage.GoogleTest1" configurationId="TestNG" />
     </history-entry>
@@ -522,23 +531,39 @@
     <history-entry file="_default_ - 2019.04.02 at 21h 30m 30s.xml">
       <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="unitTest1 - 2019.04.11 at 11h 09m 50s.xml">
+      <configuration name="unitTest1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPage - 2019.04.11 at 11h 12m 55s.xml">
+      <configuration name="LoginPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPage_VerifyDropDownEbay - 2019.04.11 at 14h 10m 58s.xml">
+      <configuration name="LoginPage.VerifyDropDownEbay" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPage_VerifyDropDownEbay - 2019.04.11 at 14h 12m 32s.xml">
+      <configuration name="LoginPage.VerifyDropDownEbay" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginPage_VerifyDropDownEbay - 2019.04.11 at 14h 15m 23s.xml">
+      <configuration name="LoginPage.VerifyDropDownEbay" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1440" height="837" extended-state="6" />
+    <frame x="-3" y="23" width="1301" height="836" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32020998" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34117648" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.339895" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21736111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24058416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -551,15 +576,24 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298292" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32287583" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/unit/unitTest.java</url>
+          <line>103</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/RemoteTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/RemoteTest2.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -751,15 +785,8 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/RemoteTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/RemoteTest2.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/SeleniumRemoteTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/unit/unitTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/java/common/utility/Xls_Reader.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/qastarting">
       <provider selected="true" editor-type-id="text-editor">
@@ -768,9 +795,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1415">
+          <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/common/Xls_Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/common/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="78">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -778,9 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/unit/unitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="15">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -789,8 +837,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="393">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
         </state>
       </provider>
     </entry>

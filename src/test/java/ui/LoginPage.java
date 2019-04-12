@@ -1,10 +1,17 @@
 package ui;
 
+import common.Xls_Reader;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.*;
+
+
+import java.util.Date;
+
+import static org.testng.Assert.assertEquals;
 
 public class LoginPage {
     public WebDriver driver;
@@ -78,5 +85,138 @@ public class LoginPage {
         Assert.assertTrue(driver.findElement(By.xpath("(//*[@class='LC20lb'])[1]")).isDisplayed());
         System.out.print(ANSI_GREEN_BACKGROUND + "SUCCESS! " + ANSI_RESET);
     }
+
+    @Test
+    public void VerifyDropDownEbayHalf() throws InterruptedException {
+        driver.get("https://scgi.half.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&usage=2943&ru=");	//enter url
+        Select select = new Select(driver.findElement(By.id("state")));
+        select.selectByVisibleText("California");
+        System.out.print(ANSI_GREEN_BACKGROUND + "SUCCESS! " + ANSI_RESET);
+    }
+
+    @Test
+    public void VerifyFillOutHalf() throws InterruptedException {
+        driver.get("https://scgi.half.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&usage=2943&ru="); // enter url
+
+
+        //Data Driven Approach (Parameterization) -- used to create data driven framework: driving the test data from excel files
+
+        //get test data from excel:
+        Xls_Reader reader = new Xls_Reader("/Users/val/Desktop/qastarting_repo/src/test/java/testdata/HalfEbayTestData.xlsx\n");
+        int rowCount = reader.getRowCount("RegTestData");
+
+        reader.addColumn("RegTestData", "Status");
+
+        //Parameterization:
+        for(int rowNum = 2; rowNum<=rowCount; rowNum++){
+            System.out.println("=====");
+            String firstName = reader.getCellData("RegTestData", "firstname", rowNum);
+            System.out.println(firstName);
+
+            String lastName = reader.getCellData("RegTestData", "lastname", rowNum);
+            System.out.println(lastName);
+
+            String address1 = reader.getCellData("RegTestData", "address1", rowNum);
+            System.out.println(address1);
+
+            String address2 = reader.getCellData("RegTestData", "address2", rowNum);
+            System.out.println(address2);
+
+            String city = reader.getCellData("RegTestData", "city", rowNum);
+            System.out.println(city);
+
+            String state = reader.getCellData("RegTestData", "state", rowNum);
+            System.out.println(state);
+
+            String zipCode = reader.getCellData("RegTestData", "zipcode", rowNum);
+            System.out.println(zipCode);
+
+            String emailAddress = reader.getCellData("RegTestData", "emailaddress", rowNum);
+            System.out.println(emailAddress);
+
+            //enter data:
+            driver.findElement(By.xpath("//*[@id='firstname']")).clear();
+            driver.findElement(By.xpath("//*[@id='firstname']")).sendKeys(firstName);
+
+            driver.findElement(By.xpath("//*[@id='lastname']")).clear();
+            driver.findElement(By.xpath("//*[@id='lastname']")).sendKeys(lastName);
+
+            driver.findElement(By.xpath("//*[@id='address1']")).clear();
+            driver.findElement(By.xpath("//*[@id='address1']")).sendKeys(address1);
+
+            driver.findElement(By.xpath("//*[@id='address1']")).clear();
+            driver.findElement(By.xpath("//*[@id='address1']")).sendKeys(address2);
+
+            driver.findElement(By.xpath("//*[@id='city']")).clear();
+            driver.findElement(By.xpath("//*[@id='city']")).sendKeys(city);
+
+            Select select = new Select(driver.findElement(By.xpath("//*[@id='state']")));
+            select.selectByVisibleText(state);
+
+            driver.findElement(By.xpath("//*[@id='zip']")).clear();
+            driver.findElement(By.xpath("//*[@id='zip']")).sendKeys(zipCode);
+
+            driver.findElement(By.xpath("//*[@id='email']")).clear();
+            driver.findElement(By.xpath("//*[@id='email']")).sendKeys(emailAddress);
+
+            driver.findElement(By.xpath("//*[@id='retype_email']")).clear();
+            driver.findElement(By.xpath("//*[@id='retype_email']")).sendKeys(emailAddress);
+
+            reader.setCellData("RegTestData", "Status", rowNum, "Pass"); //write the data into a cell
+
+        }
+        System.out.print(ANSI_GREEN_BACKGROUND + "SUCCESS! " + ANSI_RESET);
+    }
+
+    @Test
+    public void VerifyFillOutHalf2() throws InterruptedException {
+        driver.get("https://scgi.half.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&usage=2943&ru="); // enter url
+        //get test data from excel:
+        Xls_Reader reader = new Xls_Reader("/Users/val/Desktop/qastarting_repo/src/test/java/testdata/HalfEbayTestData.xlsx\n");
+
+        String firstName = reader.getCellData("RegTestData", "firstname", 2);
+		System.out.println(firstName);
+
+        String lastName = reader.getCellData("RegTestData", "lastname", 2);
+		System.out.println(lastName);
+
+    String address1 = reader.getCellData("RegTestData", "address1", 2);
+		System.out.println(address1);
+
+    String address2 = reader.getCellData("RegTestData", "address2", 2);
+		System.out.println(address2);
+
+    String city = reader.getCellData("RegTestData", "city", 2);
+		System.out.println(city);
+
+    String state = reader.getCellData("RegTestData", "state", 2);
+		System.out.println(state);
+
+    String zipCode = reader.getCellData("RegTestData", "zipcode", 2);
+		System.out.println(zipCode);
+
+    String emailAddress = reader.getCellData("RegTestData", "emailaddress", 2);
+		System.out.println(emailAddress);
+
+
+		driver.findElement(By.xpath("//*[@id='firstname']")).sendKeys(firstName);
+
+		driver.findElement(By.xpath("//*[@id='lastname']")).sendKeys(lastName);
+
+		driver.findElement(By.xpath("//*[@id='address1']")).sendKeys(address1);
+
+		driver.findElement(By.xpath("//*[@id='address1']")).sendKeys(address2);
+
+		driver.findElement(By.xpath("//*[@id='city']")).sendKeys(city);
+
+        Select select = new Select(driver.findElement(By.xpath("//*[@id='state']")));
+		select.selectByVisibleText(state);
+
+		driver.findElement(By.xpath("//*[@id='zip']")).sendKeys(zipCode);
+
+		driver.findElement(By.xpath("//*[@id='email']")).sendKeys(emailAddress);
+		driver.findElement(By.xpath("//*[@id='retype_email']")).sendKeys(emailAddress);
+
+}
 }
 
