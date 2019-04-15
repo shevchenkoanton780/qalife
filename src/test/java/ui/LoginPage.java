@@ -1,17 +1,16 @@
 package ui;
 
-import common.Xls_Reader;
+import common.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
+import org.openqa.selenium.firefox.*;
+import org.openqa.selenium.remote.*;
+import org.openqa.selenium.support.ui.*;
+import org.testng.*;
 import org.testng.annotations.*;
 
-
-import java.util.Date;
-
-import static org.testng.Assert.assertEquals;
+import java.io.File;
+import java.util.*;
+import static org.testng.Assert.*;
 
 public class LoginPage {
     public WebDriver driver;
@@ -34,7 +33,6 @@ public class LoginPage {
     @BeforeTest
     public void setUp() {
         driver.manage().window().maximize();
-        driver.get("http://www.google.com");
     }
 
     @AfterTest
@@ -94,129 +92,55 @@ public class LoginPage {
         System.out.print(ANSI_GREEN_BACKGROUND + "SUCCESS! " + ANSI_RESET);
     }
 
+
     @Test
-    public void VerifyFillOutHalf() throws InterruptedException {
-        driver.get("https://scgi.half.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&usage=2943&ru="); // enter url
-
-
-        //Data Driven Approach (Parameterization) -- used to create data driven framework: driving the test data from excel files
-
-        //get test data from excel:
-        Xls_Reader reader = new Xls_Reader("/Users/val/Desktop/qastarting_repo/src/test/java/testdata/HalfEbayTestData.xlsx\n");
-        int rowCount = reader.getRowCount("RegTestData");
-
-        reader.addColumn("RegTestData", "Status");
-
-        //Parameterization:
-        for(int rowNum = 2; rowNum<=rowCount; rowNum++){
-            System.out.println("=====");
-            String firstName = reader.getCellData("RegTestData", "firstname", rowNum);
-            System.out.println(firstName);
-
-            String lastName = reader.getCellData("RegTestData", "lastname", rowNum);
-            System.out.println(lastName);
-
-            String address1 = reader.getCellData("RegTestData", "address1", rowNum);
-            System.out.println(address1);
-
-            String address2 = reader.getCellData("RegTestData", "address2", rowNum);
-            System.out.println(address2);
-
-            String city = reader.getCellData("RegTestData", "city", rowNum);
-            System.out.println(city);
-
-            String state = reader.getCellData("RegTestData", "state", rowNum);
-            System.out.println(state);
-
-            String zipCode = reader.getCellData("RegTestData", "zipcode", rowNum);
-            System.out.println(zipCode);
-
-            String emailAddress = reader.getCellData("RegTestData", "emailaddress", rowNum);
-            System.out.println(emailAddress);
-
-            //enter data:
-            driver.findElement(By.xpath("//*[@id='firstname']")).clear();
-            driver.findElement(By.xpath("//*[@id='firstname']")).sendKeys(firstName);
-
-            driver.findElement(By.xpath("//*[@id='lastname']")).clear();
-            driver.findElement(By.xpath("//*[@id='lastname']")).sendKeys(lastName);
-
-            driver.findElement(By.xpath("//*[@id='address1']")).clear();
-            driver.findElement(By.xpath("//*[@id='address1']")).sendKeys(address1);
-
-            driver.findElement(By.xpath("//*[@id='address1']")).clear();
-            driver.findElement(By.xpath("//*[@id='address1']")).sendKeys(address2);
-
-            driver.findElement(By.xpath("//*[@id='city']")).clear();
-            driver.findElement(By.xpath("//*[@id='city']")).sendKeys(city);
-
-            Select select = new Select(driver.findElement(By.xpath("//*[@id='state']")));
-            select.selectByVisibleText(state);
-
-            driver.findElement(By.xpath("//*[@id='zip']")).clear();
-            driver.findElement(By.xpath("//*[@id='zip']")).sendKeys(zipCode);
-
-            driver.findElement(By.xpath("//*[@id='email']")).clear();
-            driver.findElement(By.xpath("//*[@id='email']")).sendKeys(emailAddress);
-
-            driver.findElement(By.xpath("//*[@id='retype_email']")).clear();
-            driver.findElement(By.xpath("//*[@id='retype_email']")).sendKeys(emailAddress);
-
-            reader.setCellData("RegTestData", "Status", rowNum, "Pass"); //write the data into a cell
-
-        }
-        System.out.print(ANSI_GREEN_BACKGROUND + "SUCCESS! " + ANSI_RESET);
+    public void verifyLogoDatafaction(){
+        driver.get("http://www.datafaction.com");
+        driver.findElement(By.xpath("//*[@id=\"cnb-navbar-collapse\"]/ul/li[3]/a")).click();
+        Assert.assertTrue(driver.getCurrentUrl().contains("/blog.html"));
+        Utility.clickJs(driver, "df-logo");
+        Utility.waitForUrlContains(driver, "/index.html", 10);
+        Assert.assertTrue(driver.getCurrentUrl().contains("/index.html"));
+        Assert.assertFalse(driver.getCurrentUrl().contains("/blog.html"));
     }
 
     @Test
-    public void VerifyFillOutHalf2() throws InterruptedException {
-        driver.get("https://scgi.half.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&usage=2943&ru="); // enter url
-        //get test data from excel:
-        Xls_Reader reader = new Xls_Reader("/Users/val/Desktop/qastarting_repo/src/test/java/testdata/HalfEbayTestData.xlsx\n");
+    public void verifyCnbBankPage() {
+        driver.get("http://cnb.com");
+        System.out.println("Navigating to: http://cnb.com");
+        System.out.println("Waiting for page to load...");
+        new WebDriverWait(driver, 10).until(ExpectedConditions.titleIs("Personal"));
+    }
 
-        String firstName = reader.getCellData("RegTestData", "firstname", 2);
-		System.out.println(firstName);
-
-        String lastName = reader.getCellData("RegTestData", "lastname", 2);
-		System.out.println(lastName);
-
-    String address1 = reader.getCellData("RegTestData", "address1", 2);
-		System.out.println(address1);
-
-    String address2 = reader.getCellData("RegTestData", "address2", 2);
-		System.out.println(address2);
-
-    String city = reader.getCellData("RegTestData", "city", 2);
-		System.out.println(city);
-
-    String state = reader.getCellData("RegTestData", "state", 2);
-		System.out.println(state);
-
-    String zipCode = reader.getCellData("RegTestData", "zipcode", 2);
-		System.out.println(zipCode);
-
-    String emailAddress = reader.getCellData("RegTestData", "emailaddress", 2);
-		System.out.println(emailAddress);
-
-
-		driver.findElement(By.xpath("//*[@id='firstname']")).sendKeys(firstName);
-
-		driver.findElement(By.xpath("//*[@id='lastname']")).sendKeys(lastName);
-
-		driver.findElement(By.xpath("//*[@id='address1']")).sendKeys(address1);
-
-		driver.findElement(By.xpath("//*[@id='address1']")).sendKeys(address2);
-
-		driver.findElement(By.xpath("//*[@id='city']")).sendKeys(city);
-
-        Select select = new Select(driver.findElement(By.xpath("//*[@id='state']")));
-		select.selectByVisibleText(state);
-
-		driver.findElement(By.xpath("//*[@id='zip']")).sendKeys(zipCode);
-
-		driver.findElement(By.xpath("//*[@id='email']")).sendKeys(emailAddress);
-		driver.findElement(By.xpath("//*[@id='retype_email']")).sendKeys(emailAddress);
-
-}
+    @Test
+    public void verifyDatafactionPageAllLinks() {
+        driver.get("https://datafaction.com");
+        String[] links = null;
+        int linksCount = 0;
+        List<WebElement> linksize = driver.findElements(By.tagName("a"));
+        linksCount = linksize.size();
+        System.out.println("Total no of links Available: " + linksCount);
+        links = new String[linksCount];
+        System.out.println("List of links Available: ");
+// print all the links from webpage
+        for (int i = 0; i < linksCount; i++) {
+            List<WebElement> all_links_webpage = driver.findElements(By.tagName("a"));
+            links[i] = linksize.get(i).getAttribute("href");
+            System.out.println(all_links_webpage.get(i).getAttribute("href"));
+        }
+// navigate to each Link on the webpage
+        for (int i = 0; i < linksCount; i++) {
+            driver.navigate().to(links[i]);
+            String curl = driver.getCurrentUrl();
+            System.out.println(curl);
+            if (curl.contains(links[i])) {
+                System.out.println("True");
+                assert true;
+            } else {
+                System.out.println("True");
+                assert true;
+            }
+        }
+    }
 }
 
