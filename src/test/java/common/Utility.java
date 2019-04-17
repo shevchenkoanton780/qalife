@@ -59,28 +59,16 @@ public class Utility extends LoginPage {
         }
     }
 
-    public static void collecElementTxt(WebDriver driver, String xpath, int integ, String nameoffile) throws Exception{
+    public static ArrayList<String> collecElementTxt(WebDriver driver, String xpath) {
         List<WebElement> phones = driver.findElements(By.xpath(xpath));
         ArrayList<String> ph = new ArrayList<String>();
-        System.out.println("Total no of links Available: " + phones.size());
+        System.out.println("Total No of links Available: " + phones.size());
         for (int i = 0; i < phones.size(); i++) {
             phones.get(i).getText();
             ph.add(phones.get(i).getText());
             System.out.println(phones.get(i).getText());
         }
-        String yelpfile = System.getProperty("user.home")+"/Desktop/"+nameoffile;
-        HSSFWorkbook workbook = new HSSFWorkbook();
-        HSSFSheet sheet = workbook.createSheet("Van Nuys");
-        HSSFRow rowhead = sheet.createRow((short)0);
-        rowhead.createCell(integ).setCellValue("Company");
-        rowhead.createCell(2).setCellValue("Phone");
-        for (int i = 0; i < ph.size(); i++) {
-            sheet.createRow((short)i).createCell(2).setCellValue(ph.get(i));
-        }
-        FileOutputStream fileOut = new FileOutputStream(yelpfile);
-        workbook.write(fileOut);
-        fileOut.close();
-        workbook.close();
+        return ph;
     }
 }
 
