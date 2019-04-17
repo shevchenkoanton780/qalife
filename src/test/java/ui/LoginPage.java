@@ -94,7 +94,7 @@ public class LoginPage {
 
 
     @Test
-    public void verifyLogoDatafaction(){
+    public void verifyLogoDatafaction() throws Exception {
         driver.get("http://www.datafaction.com");
         driver.findElement(By.xpath("//*[@id=\"cnb-navbar-collapse\"]/ul/li[3]/a")).click();
         Assert.assertTrue(driver.getCurrentUrl().contains("/blog.html"));

@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c58da3c-77ca-4ef4-9302-9bf38298e8c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/FoxJsoupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/TxtCreateReadModifyDeleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Abstraction_OOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/DynamicPolymorphism_OOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/Encapsulation_OOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/InterfacesOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/InterfacesOOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/StaticPolymorphism_OOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/SeleniumGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/SeleniumGrid2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/common/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/common/Xls_Reader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testdata/HalfEbayTestData.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit/unitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/unitTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,22 +25,107 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/qastarting_repo$Encapsulation_OOP_main.ic" NAME="Encapsulation_OOP.main Coverage Results" MODIFIED="1555447883228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>OOP.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Abstraction_OOP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OOP/Abstraction_OOP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="435">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Encapsulation_OOP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OOP/Encapsulation_OOP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicPolymorphism_OOP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OOP/DynamicPolymorphism_OOP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticPolymorphism_OOP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OOP/StaticPolymorphism_OOP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YelpFindAllNamesPhones.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1113#1121#0" expanded="true" />
+                <element signature="e#1182#1190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/common/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="51" column="80" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="80" />
+            <state relative-caret-position="390">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2223#2231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TxtCreateReadModifyDeleteTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/TxtCreateReadModifyDeleteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" selection-start-line="17" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,11 +133,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FoxSeleniumTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1833">
+              <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoxJsoupTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/FoxJsoupTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+            <state relative-caret-position="195">
+              <caret line="102" column="61" lean-forward="true" selection-start-line="102" selection-start-column="61" selection-end-line="103" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,6 +182,7 @@
     <findStrings>
       <find>fileuri</find>
       <find>a</find>
+      <find>send</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -102,15 +215,29 @@
         <option value="$PROJECT_DIR$/src/test/java/ui/SeleniumRemoteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/unit/unitTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/common/utility/Xls_Reader.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/common/Xls_Reader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/FoxJsoupTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/TxtCreateReadModifyDeleteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/common/DeleteFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/unit/unitTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/FoxJsoupTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/Selenium.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/SeleniumGrid.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/SeleniumGrid2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/OOP_LESSONS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/In.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/OOP_LESSONS_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/InterfacesOOPTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/InterfacesOOP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/Abstraction_OOP_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/Encapsulation_OOP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/StaticPolymorphism_OOP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/DynamicPolymorphism_OOP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OOP/Abstraction_OOP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/common/Utility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java" />
       </list>
     </option>
   </component>
@@ -122,10 +249,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="25" />
-    <option name="y" value="23" />
-    <option name="width" value="1032" />
-    <option name="height" value="779" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,9 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +297,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qastarting_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qastarting_repo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,6 +334,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,22 +347,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/webdrivers" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
-      <recent name="$PROJECT_DIR$/src/test/common" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="OOP" />
       <recent name="ui" />
       <recent name="common" />
       <recent name="common.utility" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/webdrivers" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +378,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FoxSeleniumTest.foxtest">
+  <component name="RunManager" selected="TestNG.YelpFindAllNamesPhones.verifyLogoDatafaction2">
     <configuration name="FoxJsoupTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.FoxJsoupTest" />
       <module name="qastarting-test" />
@@ -275,7 +409,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FoxSeleniumTest.foxtest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Encapsulation_OOP" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qastarting-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="OOP" />
+      <option name="MAIN_CLASS_NAME" value="OOP.Encapsulation_OOP" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Encapsulation_OOP.main" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qastarting-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="OOP" />
+      <option name="MAIN_CLASS_NAME" value="OOP.Encapsulation_OOP" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="FoxSeleniumTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qastarting-test" />
       <extension name="coverage">
         <pattern>
@@ -288,9 +480,9 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="ui" />
       <option name="MAIN_CLASS_NAME" value="ui.FoxSeleniumTest" />
-      <option name="METHOD_NAME" value="foxtest" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -318,35 +510,6 @@
       <option name="PACKAGE_NAME" value="ui" />
       <option name="MAIN_CLASS_NAME" value="ui.LoginPage" />
       <option name="METHOD_NAME" value="Login" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="LoginPage.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qastarting-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.LoginPage" />
-      <option name="METHOD_NAME" value="test" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -391,49 +554,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Utility.deleteFileOnDesktop" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="YelpFindAllNamesPhones.verifyLogoDatafaction2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qastarting-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common.*" />
+          <option name="PATTERN" value="ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="common" />
-      <option name="MAIN_CLASS_NAME" value="common.Utility" />
-      <option name="METHOD_NAME" value="deleteFileOnDesktop" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Utility.readAllNamesFilesFromDesktop" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qastarting-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="common" />
-      <option name="MAIN_CLASS_NAME" value="common.Utility" />
-      <option name="METHOD_NAME" value="readAllNamesFilesFromDesktop" />
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.YelpFindAllNamesPhones" />
+      <option name="METHOD_NAME" value="verifyLogoDatafaction2" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -472,19 +606,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.Utility.deleteFileOnDesktop" />
-      <item itemvalue="TestNG.Utility.readAllNamesFilesFromDesktop" />
-      <item itemvalue="TestNG.LoginPage.test" />
+      <item itemvalue="TestNG.Encapsulation_OOP.main" />
+      <item itemvalue="TestNG.YelpFindAllNamesPhones.verifyLogoDatafaction2" />
       <item itemvalue="Application.FoxJsoupTest" />
-      <item itemvalue="TestNG.FoxSeleniumTest.foxtest" />
+      <item itemvalue="TestNG.FoxSeleniumTest" />
+      <item itemvalue="TestNG.Encapsulation_OOP" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FoxSeleniumTest.foxtest" />
-        <item itemvalue="TestNG.LoginPage.test" />
+        <item itemvalue="TestNG.YelpFindAllNamesPhones.verifyLogoDatafaction2" />
+        <item itemvalue="TestNG.Encapsulation_OOP" />
+        <item itemvalue="TestNG.Encapsulation_OOP.main" />
         <item itemvalue="Application.FoxJsoupTest" />
-        <item itemvalue="TestNG.Utility.readAllNamesFilesFromDesktop" />
-        <item itemvalue="TestNG.Utility.deleteFileOnDesktop" />
+        <item itemvalue="TestNG.FoxSeleniumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -513,39 +647,46 @@
       <option name="project" value="LOCAL" />
       <updated>1555036211040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Unlocked">
+      <created>1555300057660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555300057660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 24m 07s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones_verifyLogoDatafaction - 2019.04.16 at 19h 10m 15s.xml">
+      <configuration name="YelpFindAllNamesPhones.verifyLogoDatafaction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 24m 36s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones_verifyLogoDatafaction - 2019.04.16 at 19h 31m 44s.xml">
+      <configuration name="YelpFindAllNamesPhones.verifyLogoDatafaction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 26m 01s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones_verifyLogoDatafaction2 - 2019.04.16 at 19h 36m 25s.xml">
+      <configuration name="YelpFindAllNamesPhones.verifyLogoDatafaction2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 26m 55s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones_verifyLogoDatafaction2 - 2019.04.16 at 19h 40m 06s.xml">
+      <configuration name="YelpFindAllNamesPhones.verifyLogoDatafaction2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 27m 51s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="FoxSeleniumTest - 2019.04.16 at 19h 45m 45s.xml">
+      <configuration name="FoxSeleniumTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 30m 01s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="Encapsulation_OOP_main - 2019.04.16 at 19h 50m 17s.xml">
+      <configuration name="Encapsulation_OOP.main" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 30m 59s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="Encapsulation_OOP_main - 2019.04.16 at 19h 50m 26s.xml">
+      <configuration name="Encapsulation_OOP.main" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 34m 55s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="Encapsulation_OOP - 2019.04.16 at 19h 50m 34s.xml">
+      <configuration name="Encapsulation_OOP" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 35m 50s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="Encapsulation_OOP - 2019.04.16 at 19h 50m 38s.xml">
+      <configuration name="Encapsulation_OOP" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPage_test - 2019.04.14 at 17h 40m 04s.xml">
-      <configuration name="LoginPage.test" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones_verifyLogoDatafaction2 - 2019.04.16 at 19h 56m 43s.xml">
+      <configuration name="YelpFindAllNamesPhones.verifyLogoDatafaction2" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="4">
@@ -563,30 +704,32 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17570755" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3125" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.29665738" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4056604" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.081367925" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.36870998" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23402777" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14513889" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -603,50 +746,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/RemoteTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/RemoteTest2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/sql_quiry_Question2" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SeleniumRemoteTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SelenoidTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/RemoteTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/RemoteTest2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -792,25 +891,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/common/Xls_Reader.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/common/DeleteFile.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/Xls_Reader.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/DeleteFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="24" />
+        <state relative-caret-position="480">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/unit/unitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OOP/InterfacesOOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OOP/Abstraction_OOP_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" lean-forward="true" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OOP/InterfacesOOPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SeleniumGrid2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SeleniumGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OOP/Abstraction_OOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/TxtCreateReadModifyDeleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -819,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="1833">
+          <caret line="134" column="5" lean-forward="true" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -829,43 +1009,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/FoxJsoupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#436#444#0" expanded="true" />
-            <element signature="e#489#497#0" expanded="true" />
-            <element signature="e#543#551#0" expanded="true" />
-            <element signature="e#599#607#0" expanded="true" />
-            <element signature="e#653#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/TxtCreateReadModifyDeleteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="17" column="14" selection-start-line="17" selection-end-line="18" />
+        <state relative-caret-position="45">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/OOP/Encapsulation_OOP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OOP/DynamicPolymorphism_OOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OOP/StaticPolymorphism_OOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1113#1121#0" expanded="true" />
+            <element signature="e#1182#1190#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/common/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="51" column="80" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="80" />
+        <state relative-caret-position="390">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2223#2231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="102" column="61" lean-forward="true" selection-start-line="102" selection-start-column="61" selection-end-line="103" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
