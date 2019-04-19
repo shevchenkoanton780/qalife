@@ -7,11 +7,13 @@ public class LoginPage extends Page{
     private final ResourceBundle resourceBundle;
     private final String url;
     private final String explicitTime;
+    public final String googleBtnSearchLoc;
 
     public LoginPage() {
         resourceBundle = getBundle("pages.LoginPage");
         url = this.getResourceBundle().getString("url");
         explicitTime = this.getResourceBundle().getString("explicitTime");
+        googleBtnSearchLoc = this.getResourceBundle().getString("googleBtnSearchLoc");
     }
     @Override
     public ResourceBundle getResourceBundle() {
@@ -21,7 +23,7 @@ public class LoginPage extends Page{
     public String getUrl() {
         return url;
     }
-
+    @Override
     public int getExplicitTime() {
         int expTime = Integer.parseInt(explicitTime);
         return expTime;

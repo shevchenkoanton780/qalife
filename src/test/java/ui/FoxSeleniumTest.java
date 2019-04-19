@@ -7,21 +7,24 @@ import org.openqa.selenium.interactions.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.testng.annotations.*;
 import pages.LoginPage;
+import web.driver.factory.DriverFactory;
+
 import java.io.*;
 import java.util.*;
 import static java.lang.Thread.*;
 
 public class FoxSeleniumTest extends LoginPage {
-    private ExpectedCondition<Boolean> pageTitleStartsWith(final String searchString) {
-        return driver -> driver.getTitle().toLowerCase().startsWith(searchString.toLowerCase());
-    }
+//    private ExpectedCondition<Boolean> pageTitleStartsWith(final String searchString) {
+//        return driver -> driver.getTitle().toLowerCase().startsWith(searchString.toLowerCase());
+//    }
 
     @Test
-    public void foxtest() throws InterruptedException, IOException {
-
+    @Parameters({"browser"})
+    public void foxtest(String browser) throws InterruptedException, IOException {
+        WebDriver driver = DriverFactory.getDriver(browser);
         String filename = System.getProperty("user.home")+"/Desktop/foxselenium.xls";
         driver.get("https://www.fox.com/");
-        driver.findElement(By.xpath("(//*[contains(@href, 'shows')])[2]")).click();
+        driver.findElement(By.xpath("(//*[contains(@href, 'sports')])[1]")).click();
         Actions action = new Actions(driver);
         for(int i=0;i<5;i++)
         {
@@ -77,7 +80,7 @@ public class FoxSeleniumTest extends LoginPage {
         row3n.createCell(1).setCellValue(fx.get(fxsize-2).getText());
         row4n.createCell(1).setCellValue(fx.get(fxsize-1).getText());
 // Shows
-        driver.findElement(By.xpath("//a[contains(text(), 'Shows')]")).click();
+        driver.findElement(By.xpath("//a[contains(text(), 'Sports')]")).click();
         sleep(2000);
         for(int i=0;i<5;i++)
         {

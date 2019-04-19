@@ -6,14 +6,15 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class DriverThread {
     private WebDriver webdriver;
     private DriverType selectDriverType;
-    private final DriverType defaultDriverType = DriverType.Chrome;
+    private final DriverType defaultDriverType = DriverType.FIREFOX;
     private final String operatingSystem = System.getProperty("os.name").toUpperCase();
-    private final String systemArchitecture = System.getProperty("os.arch").toUpperCase();
+    private final String systemArchitecture = System.getProperty("os.arch");
+
     public WebDriver getDriver(String driverType){
         if(null==webdriver){
             selectDriverType = determineDriverType(driverType);
             DesiredCapabilities desiredCapabilities = selectDriverType.getDesiredCapabilities();
-            instantiateWebdriver(desiredCapabilities);
+            instantiateWebDriver(desiredCapabilities);
         }
         return webdriver;
     }
@@ -35,7 +36,7 @@ public class DriverThread {
         }
         return dt;
     }
-    private void instantiateWebdriver(DesiredCapabilities desiredCapabilities){
+    private void instantiateWebDriver(DesiredCapabilities desiredCapabilities){
         System.out.println(" ");
         System.out.println("Current OS: " + operatingSystem);
         System.out.println("Current Architecture: "+systemArchitecture);

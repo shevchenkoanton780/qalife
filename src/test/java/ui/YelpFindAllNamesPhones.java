@@ -5,15 +5,20 @@ import org.apache.poi.hssf.usermodel.*;
 import org.jsoup.*;
 import org.jsoup.nodes.*;
 import org.jsoup.select.*;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import pages.LoginPage;
+import web.driver.factory.DriverFactory;
+
 import java.io.*;
 import java.util.*;
 
 public class YelpFindAllNamesPhones extends LoginPage {
 
     @Test
-    public void yelpSearchSelenium()throws Exception{
+    @Parameters({"browser"})
+    public void yelpSearchSelenium(String browser)throws Exception{
+        WebDriver driver = DriverFactory.getDriver(browser);
         driver.get("https://www.yelp.com/search?find_desc=concreate&find_loc=Van+Nuys%2C+Los+Angeles%2C+CA&ns=1");
         ArrayList<String> comp = Utility.collecElementTxt(driver, "//*[@class='lemon--div__373c0__1mboc businessName__373c0__1fTgn border-color--default__373c0__2oFDT']");
         ArrayList<String> ph = Utility.collecElementTxt(driver, "//*[@class='lemon--div__373c0__1mboc display--inline-block__373c0__2de_K u-space-b1 border-color--default__373c0__2oFDT']");

@@ -35,13 +35,13 @@ public class FoxJsoupTest extends LoginPage {
         int fx_size = fx_.size();
         for (int i = 0; i < fx_size; ++i)
             fx_l.add(fx_.get(i).text());
-        String urlnat = "https://www.fox.com/shows/";
+        String urlnat = "https://www.fox.com/sports/";
         Document nat = Jsoup.connect(urlnat).get();
         Elements nat_ = nat.select(xpath);
         int nat_size = nat_.size();
         for (int i = 0; i < nat_size; ++i)
             nat_l.add(nat_.get(i).text());
-        String urlsport = "https://www.fox.com/shows/";
+        String urlsport = "https://www.fox.com/sports/";
         Document sport = Jsoup.connect(urlsport).get();
         Elements sport_ = sport.select(xpath);
         int sport_size = sport_.size();
