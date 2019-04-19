@@ -1,18 +1,24 @@
 // Using library selenium for web parsing(find some elements) and writing to xls file, also using scroll down
 
 package ui;
-import common.Utility;
 import org.openqa.selenium.*;
 import org.apache.poi.hssf.usermodel.*;
 import org.openqa.selenium.interactions.*;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.testng.annotations.*;
+import pages.LoginPage;
 import java.io.*;
 import java.util.*;
 import static java.lang.Thread.*;
 
-public class FoxSeleniumTest extends LoginPage{
+public class FoxSeleniumTest extends LoginPage {
+    private ExpectedCondition<Boolean> pageTitleStartsWith(final String searchString) {
+        return driver -> driver.getTitle().toLowerCase().startsWith(searchString.toLowerCase());
+    }
+
     @Test
     public void foxtest() throws InterruptedException, IOException {
+
         String filename = System.getProperty("user.home")+"/Desktop/foxselenium.xls";
         driver.get("https://www.fox.com/");
         driver.findElement(By.xpath("(//*[contains(@href, 'shows')])[2]")).click();

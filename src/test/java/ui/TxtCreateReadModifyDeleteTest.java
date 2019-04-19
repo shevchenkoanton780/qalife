@@ -2,13 +2,14 @@ package ui;
 
 import com.github.javafaker.*;
 import org.testng.annotations.*;
+import pages.LoginPage;
 import java.io.*;
 import java.io.File;
 import java.io.FileWriter;
 import java.text.*;
 import java.util.*;
 
-public class TxtCreateReadModifyDeleteTest {
+public class TxtCreateReadModifyDeleteTest extends LoginPage {
     public Faker faker = new Faker();
     public static final String ANSI_RED_BACKGROUND = "\u001B[41m";
     public static final String ANSI_GREEN_BACKGROUND = "\u001B[42m";

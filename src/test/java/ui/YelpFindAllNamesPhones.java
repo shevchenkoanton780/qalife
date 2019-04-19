@@ -6,6 +6,7 @@ import org.jsoup.*;
 import org.jsoup.nodes.*;
 import org.jsoup.select.*;
 import org.testng.annotations.*;
+import pages.LoginPage;
 import java.io.*;
 import java.util.*;
 

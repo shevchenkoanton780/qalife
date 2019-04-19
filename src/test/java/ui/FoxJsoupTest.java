@@ -6,11 +6,16 @@ import org.jsoup.*;
 import org.jsoup.nodes.*;
 import org.jsoup.select.*;
 import org.apache.poi.hssf.usermodel.*;
+import org.testng.annotations.Test;
+import pages.LoginPage;
+
 import java.io.*;
 import java.util.*;
 
-public class FoxJsoupTest {
-    public static void main(String[] args) throws IOException {
+public class FoxJsoupTest extends LoginPage {
+//    public static void main(String[] args) throws IOException {
+    @Test
+    public void FoxJsoupTest()throws IOException{
         String filename = System.getProperty("user.home")+"/Desktop/foxjsoup.xls";
         String xpath = "div[class*='Tile_details']";
         List<String> shows_l = new ArrayList<String>();

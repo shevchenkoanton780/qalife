@@ -1,22 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.qastarting.test</groupId>
     <artifactId>qastarting-test</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>qalife</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <suiteFile></suiteFile>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <selenium.version>3.141.59</selenium.version>
+        <testng.version>6.10</testng.version>
+        <failsafe.version>3.0.0-M3</failsafe.version>
+        <lazerycode.version>1.0.17</lazerycode.version>
+        <log4j.version>2.11.2</log4j.version>
+        <threads>1</threads>
+        <browser></browser>
+        <overwrite.binaries>true</overwrite.binaries>
+        <test.LoginPage.properties>${project.basedir}/src/test/resources/pages/LoginPage.properties</test.LoginPage.properties>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>${failsafe.version}</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${project.basedir}/src/test/resources/suites/Chrome.xml</suiteXmlFile>
+                        <!--<suiteXmlFile>${project.basedir}/src/test/resources/suites/Firefox.xml</suiteXmlFile>-->
+                    </suiteXmlFiles>
+                    <properties>
+                        <property>
+                            <name>suitethreadpoolsize</name>
+                            <value>1</value>
+                        </property>
+                    </properties>
+                    <systemProperties>
+                        <browser>${browser}</browser>
+                        <!--<webdriver.gecko.driver>${webdriver.gecko.driver}</webdriver.gecko.driver>-->
+                        <!--<webdriver.chrome.driver>${webdriver.chrome.driver}</webdriver.chrome.driver>-->
+                    </systemProperties>
+                    <includes>
+                        <include>**/*AT.java </include>
+                    </includes>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>com.lazerycode.selenium</groupId>
+                <artifactId>driver-binary-downloader-maven-plugin</artifactId>
+                <version>${lazerycode.version}</version>
+                <configuration>
+                    <rootStandaloneServerDirectory>${project.basedir}/src/test/resources/webdriver/binaries</rootStandaloneServerDirectory>
+                    <downloadedZipFileDirectory>${project.basedir}/src/test/resources/webdriver/compressed_files</downloadedZipFileDirectory>
+                    <customRepositoryMap>${project.basedir}/src/test/resources/webdriver/RepositoryMap.xml</customRepositoryMap>
+                    <overwriteFilesThatExist>${overwrite.binaries}</overwriteFilesThatExist>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>selenium</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <groups>ui</groups>
+                    <groups>oop</groups>
+                    <groups>unit</groups>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.3.2</version>
+            <groupId>com.lazerycode.selenium</groupId>
+            <artifactId>driver-binary-downloader-maven-plugin</artifactId>
+            <version>1.0.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.11.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>3.0.0-beta3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.11.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.2gis.winium</groupId>
+            <artifactId>winium-webdriver</artifactId>
+            <version>0.1.0-1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-failsafe-plugin</artifactId>
+            <version>3.0.0-M3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.14.3</version>
+            <version>6.10</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -24,11 +158,7 @@
             <artifactId>selenium-java</artifactId>
             <version>3.4.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
-        </dependency>
+        <!---->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -51,6 +181,16 @@
             <version>4.1.0</version>
         </dependency>
         <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>21.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>1.11.3</version>
@@ -60,7 +200,5 @@
             <artifactId>javafaker</artifactId>
             <version>0.12</version>
         </dependency>
-
-
     </dependencies>
 </project>

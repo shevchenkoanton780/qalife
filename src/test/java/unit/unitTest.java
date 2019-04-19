@@ -2,9 +2,10 @@ package unit;
 
 import common.*;
 import org.testng.annotations.*;
+import pages.LoginPage;
 import java.util.*;
 
-public class unitTest {
+public class unitTest extends LoginPage{
     @Test
     public void FormatToCurrency() {
         Utility.toCurrency(123);
