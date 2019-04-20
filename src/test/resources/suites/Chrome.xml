@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="1" name="Chrome" parallel="methods">
+<suite thread-count="2" verbose="1" name="Chrome" parallel="methods">
     <test name="regression" preserve-order="false">
         <parameter name="browser" value="Chrome"/>
         <parameter name="team" value="1"/>
         <classes>
-            <!--<class name="ui.LoginPageAT"/>-->
+            <class name="ui.LoginPageAT"/>
             <!--<class name="ui.FoxSeleniumTest"/>-->
             <!--<class name="ui.TxtCreateReadModifyDeleteTest"/>-->
             <!--<class name="ui.YelpFindAllNamesPhones"/>-->
@@ -14,7 +14,7 @@
             <!--<class name="oop.Encapsulation_OOP"/>-->
             <!--<class name="oop.InterfacesOOPTest"/>-->
             <!--<class name="oop.StaticPolymorphism_OOP"/>-->
-            <class name="unit.unitTest"/>
+            <!--<class name="unit.unitTest"/>-->
         </classes>
     </test>
 </suite>

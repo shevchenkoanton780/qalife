@@ -16,11 +16,11 @@ public enum DriverType implements DriverSetup {
     FIREFOX {
         public DesiredCapabilities getDesiredCapabilities() {
             DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-//            capabilities.setCapability("marionette", true);
-//            capabilities.setCapability("networkConnectionEnabled", true);
-//            capabilities.setCapability("browserConnectionEnabled", true);
-//            capabilities.setCapability("disable-web-security", true);
-//            capabilities.setJavascriptEnabled(true);
+            capabilities.setCapability("marionette", true);
+            capabilities.setCapability("networkConnectionEnabled", true);
+            capabilities.setCapability("browserConnectionEnabled", true);
+            capabilities.setCapability("disable-web-security", true);
+            capabilities.setJavascriptEnabled(true);
             return capabilities;
         }
         public WebDriver getWebDriverObject(DesiredCapabilities capabilities){

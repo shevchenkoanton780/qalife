@@ -121,7 +121,7 @@ public class Utility extends LoginPage {
             // Create another object to add another content
             MimeBodyPart messageBodyPart2 = new MimeBodyPart();
             // Mention the file which you want to send
-            File xx = new File(System.getProperty("user.home"), "/Desktop/qastarting_repo/target/surefdire-reports/");
+            File xx = new File(System.getProperty("user.home"), "/Desktop/qastarting_repo/target/surefire-reports/");
             String filename = "emailable-report.html";
             // Create data source and pass the filename
             DataSource source = new FileDataSource(xx+"/"+filename);
