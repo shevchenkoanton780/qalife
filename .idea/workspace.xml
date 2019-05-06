@@ -207,9 +207,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
     <option name="y" value="23" />
-    <option name="width" value="1238" />
+    <option name="width" value="1353" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -220,9 +219,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,13 +408,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Abstraction_OOP.TestBird" />
-      <item itemvalue="TestNG.Algoritms.graph" />
-      <item itemvalue="TestNG.FoxSeleniumTest.foxtest" />
+      <item itemvalue="TestNG.LoginPage.Login" />
       <item itemvalue="TestNG.LoginPageAT.GoogleTest3" />
       <item itemvalue="TestNG.LoginPageAT.verifyDatafactionPageAllLinks" />
-      <item itemvalue="TestNG.LoginPage.Login" />
       <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchSelenium" />
+      <item itemvalue="TestNG.FoxSeleniumTest.foxtest" />
+      <item itemvalue="TestNG.Algoritms.graph" />
+      <item itemvalue="TestNG.Abstraction_OOP.TestBird" />
     </list>
     <recent_temporary>
       <list>
@@ -487,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556595732753</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added new methods">
+      <created>1557110968699</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557110968699</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -523,9 +529,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="23" width="1238" height="797" extended-state="0" />
+    <frame x="169" y="23" width="1184" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25334448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2697023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -555,7 +562,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.13974153" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.36870998" />
-      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.32943144" />
+      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.34500876" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19444445" />
