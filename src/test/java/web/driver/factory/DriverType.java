@@ -24,7 +24,7 @@ public enum DriverType implements DriverSetup {
             return capabilities;
         }
         public WebDriver getWebDriverObject(DesiredCapabilities capabilities){
-            System.setProperty("webdriver.firefox.marionette", "/Users/val/Desktop/qastarting_repo/src/test/resources/geckodriver");
+            System.setProperty("webdriver.firefox.marionette", "/Users/antonbear/IdeaProjects/qalife/src/test/resources/geckodriver");
             return new FirefoxDriver(capabilities);
         }
     },
@@ -44,7 +44,7 @@ public enum DriverType implements DriverSetup {
             return capabilities;
         }
         public WebDriver getWebDriverObject(DesiredCapabilities capabilities){
-            System.setProperty("webdriver.chrome.driver", "/Users/val/Desktop/qastarting_repo/src/test/resources/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/Users/antonbear/IdeaProjects/qalife/src/test/resources/chromedriver");
             return new ChromeDriver(capabilities);
         }
     },
