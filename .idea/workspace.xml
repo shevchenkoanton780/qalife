@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c58da3c-77ca-4ef4-9302-9bf38298e8c6" name="Default" comment="added new methods">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/common/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/driver/factory/DriverType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/driver/factory/DriverType.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,74 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="395">
+              <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1226">
-              <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Firefox.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Chrome.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -143,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/test/java/web/driver/factory/DriverThread.java" />
         <option value="$PROJECT_DIR$/src/test/java/web/driver/factory/DriverFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/common/Utility.java" />
         <option value="$PROJECT_DIR$/src/test/resources/suites/Safari.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/RepositoryMap.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/suites/Firefox.xml" />
@@ -152,8 +94,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/suites/Chrome.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Algoritms.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java" />
         <option value="$PROJECT_DIR$/src/test/java/web/driver/factory/DriverType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/common/Utility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java" />
       </list>
     </option>
   </component>
@@ -185,9 +128,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-39" />
-    <option name="y" value="36" />
-    <option name="width" value="1372" />
+    <option name="x" value="297" />
+    <option name="y" value="23" />
+    <option name="width" value="1003" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -199,91 +142,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="suites" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,15 +155,16 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources/webdriver" />
+      <recent name="$PROJECT_DIR$/src/test/resources/suites" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="common" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
-      <recent name="$PROJECT_DIR$/src/test/resources/webdriver" />
       <recent name="$PROJECT_DIR$/src/test/resources/suites" />
     </key>
   </component>
@@ -319,7 +180,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.YelpFindAllNamesPhones.yelpSearchSelenium">
+  <component name="RunManager" selected="TestNG.YelpFindAllNamesPhones">
+    <configuration name="RecursiveLinkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.RecursiveLinkTest" />
+      <module name="qastarting-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -329,38 +204,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Abstraction_OOP.TestBird" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qastarting-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oop" />
-      <option name="MAIN_CLASS_NAME" value="oop.Abstraction_OOP" />
-      <option name="METHOD_NAME" value="TestBird" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Algoritms.graph" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qastarting-test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Algoritms" />
-      <option name="METHOD_NAME" value="graph" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -376,6 +219,25 @@
       <option name="PACKAGE_NAME" value="ui" />
       <option name="MAIN_CLASS_NAME" value="ui.YelpFindAllNamesPhones" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YelpFindAllNamesPhones.verifyYelpPageAllLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qastarting-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.YelpFindAllNamesPhones" />
+      <option name="METHOD_NAME" value="verifyYelpPageAllLinks" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -431,19 +293,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Abstraction_OOP.TestBird" />
-      <item itemvalue="TestNG.Algoritms.graph" />
+      <item itemvalue="Application.RecursiveLinkTest" />
+      <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchSelenium" />
       <item itemvalue="TestNG.YelpFindAllNamesPhones" />
       <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchJsoup" />
-      <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchSelenium" />
+      <item itemvalue="TestNG.YelpFindAllNamesPhones.verifyYelpPageAllLinks" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchSelenium" />
-        <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchJsoup" />
         <item itemvalue="TestNG.YelpFindAllNamesPhones" />
-        <item itemvalue="TestNG.Abstraction_OOP.TestBird" />
-        <item itemvalue="TestNG.Algoritms.graph" />
+        <item itemvalue="Application.RecursiveLinkTest" />
+        <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchSelenium" />
+        <item itemvalue="TestNG.YelpFindAllNamesPhones.verifyYelpPageAllLinks" />
+        <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchJsoup" />
       </list>
     </recent_temporary>
   </component>
@@ -535,46 +397,53 @@
       <option name="project" value="LOCAL" />
       <updated>1557509933486</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added new methods">
+      <created>1557545926750</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557545926751</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.07 at 21h 54m 47s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 22h 06m 37s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.07 at 22h 11m 46s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 22h 07m 40s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.07 at 22h 13m 37s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 22h 10m 01s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.07 at 22h 27m 59s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 22h 16m 02s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.10 at 10h 35m 42s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 22h 35m 25s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.10 at 10h 37m 22s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 22h 44m 54s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.10 at 10h 38m 31s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 22h 55m 38s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.10 at 10h 39m 21s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 23h 00m 30s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.10 at 11h 09m 12s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 23h 07m 23s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones_yelpSearchSelenium - 2019.05.10 at 11h 15m 57s.xml">
-      <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" configurationId="TestNG" />
+    <history-entry file="YelpFindAllNamesPhones - 2019.05.30 at 23h 27m 15s.xml">
+      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="227" y="63" width="1372" height="797" extended-state="0" />
+    <frame x="297" y="23" width="1003" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19323309" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120707594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -584,7 +453,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8413425" visible="true" weight="0.2638298" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8413425" visible="true" weight="0.2680851" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,7 +473,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.13974153" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.36870998" />
-      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.110526316" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.10929368" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19444445" />
@@ -658,13 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SeleniumGrid2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="39" lean-forward="true" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -727,21 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" />
     <entry file="file://$PROJECT_DIR$/target/failsafe-reports/testng-failed.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ResourceBundle.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/pages/LoginPage.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Edge.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -833,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPageAT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="8" selection-end-line="49" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -850,23 +691,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="810">
+          <caret line="69" column="67" selection-start-line="69" selection-start-column="67" selection-end-line="69" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Firefox.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/Utility.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Chrome.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="123" column="102" selection-start-line="123" selection-start-column="102" selection-end-line="123" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -879,52 +731,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="295">
+          <caret line="46" column="132" selection-start-line="46" selection-start-column="132" selection-end-line="46" selection-end-column="132" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverThread.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Firefox.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/pages/LoginPage.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Chrome.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SeleniumGrid2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="39" lean-forward="true" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPageAT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="149" column="45" selection-start-line="149" selection-start-column="45" selection-end-line="149" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="47" />
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/common/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="395">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1226">
-          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
         </state>
       </provider>
     </entry>

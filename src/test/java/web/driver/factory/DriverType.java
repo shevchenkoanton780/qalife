@@ -44,7 +44,7 @@ public enum DriverType implements DriverSetup {
             return capabilities;
         }
         public WebDriver getWebDriverObject(DesiredCapabilities capabilities){
-            System.setProperty("webdriver.chrome.driver", "/Users/antonbear/IdeaProjects/qalife/src/test/resources/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/Users/antonbear/IdeaProjects/qalife copy/src/test/resources/chromedriver");
             return new ChromeDriver(capabilities);
         }
     },

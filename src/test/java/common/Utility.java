@@ -23,6 +23,7 @@ import javax.mail.internet.MimeMultipart;
 
 public class Utility extends LoginPage {
 
+
     public static void waitUntilElementDisplayed(WebDriver driver, int sec, By xpath){
         WebDriverWait wait = new WebDriverWait(driver, sec);
         wait.until(ExpectedConditions.elementToBeClickable(xpath));
@@ -33,6 +34,8 @@ public class Utility extends LoginPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(xpath));
 
     }
+
+
 
     public static String toCurrency(double number){
         Locale loc = new Locale("en", "US");
