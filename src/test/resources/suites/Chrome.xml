@@ -5,7 +5,7 @@
         <parameter name="browser" value="Chrome"/>
         <parameter name="team" value="1"/>
         <classes>
-            <class name="ui.LoginPageAT"/>
+<!--            <class name="ui.LoginPageAT"/>-->
             <!--<class name="Algoritms"/>-->
             <!--<class name="ui.FoxSeleniumTest"/>-->
             <!--<class name="ui.TxtCreateReadModifyDeleteTest"/>-->
@@ -16,6 +16,7 @@
             <!--<class name="oop.InterfacesOOPTest"/>-->
             <!--<class name="oop.StaticPolymorphism_OOP"/>-->
             <!--<class name="unit.unitTest"/>-->
+           <class name="ui.AmazonListOfTextbooks"/>
         </classes>
     </test>
 </suite>
