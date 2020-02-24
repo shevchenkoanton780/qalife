@@ -63,12 +63,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="123" />
-    <option name="y" value="23" />
-    <option name="width" value="1253" />
-    <option name="height" value="797" />
-  </component>
   <component name="ProjectId" id="1YEND9Wwqoy67BuKk42UB6RBO2Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -100,7 +94,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/suites" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.forLoop">
+  <component name="RunManager" selected="Application.ParseElements">
     <configuration name="DecimaltoHexConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common.DecimaltoHexConverter" />
       <module name="qastarting-test" />
@@ -202,9 +196,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParseElements" />
         <item itemvalue="Application.forLoop" />
         <item itemvalue="Application.StringParcer" />
-        <item itemvalue="Application.ParseElements" />
         <item itemvalue="Application.FileTxtReader" />
         <item itemvalue="Application.DecimaltoHexConverter" />
       </list>
@@ -326,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582506726567</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added new methods">
+      <created>1582520449847</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582520449848</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -370,30 +371,34 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="0" y="23" width="1440" height="797" key="#Notifications/0.23.1440.797@0.23.1440.797" timestamp="1582504627614" />
-    <state x="42" y="29" key="CommitChangelistDialog2" timestamp="1582506726247">
+    <state x="42" y="29" key="CommitChangelistDialog2" timestamp="1582520449583">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="42" y="29" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1582520449583" />
+    <state x="42" y="29" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1582506726247" />
+    <state x="564" y="306" key="Github.ShareDialog" timestamp="1582523607649">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="42" y="29" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1582504559246" />
-    <state x="42" y="29" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1582506726247" />
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1582520407142">
+    <state x="564" y="306" key="Github.ShareDialog/0.23.1440.798@0.23.1440.798" timestamp="1582523607649" />
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1582522679215">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582520407142" />
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1582522679215" />
     <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1582505769096" />
-    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1582520407140">
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1582522679214">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1582520407140" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1582522679214" />
     <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1582505769094" />
-    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1582520407139">
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1582522679214">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1582520407139" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1582522679214" />
     <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1582505769093" />
-    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1582520407141">
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1582522679214">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1582520407141" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1582522679214" />
     <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1582505769095" />
     <state x="320" y="163" key="Vcs.Push.Dialog.v2" timestamp="1582504574804">
       <screen x="0" y="23" width="1440" height="797" />

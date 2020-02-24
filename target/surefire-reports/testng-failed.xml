@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Chrome]" parallel="methods">
+  <test thread-count="2" verbose="0" name="regression(failed)" parallel="methods">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="team" value="1"/>
+    <classes>
+      <class name="ui.LoginPageAT">
+        <methods>
+          <include name="setUpReport"/>
+          <include name="beforeClass"/>
+          <include name="closeDriverObjects"/>
+          <include name="quitDriver"/>
+          <include name="clearCookies"/>
+          <include name="instantiateDriverObject"/>
+          <include name="GoogleTest1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ui.LoginPageAT -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [Chrome] -->
