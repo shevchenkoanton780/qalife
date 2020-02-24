@@ -20,39 +20,46 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.DocumentBuilder;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.w3c.dom.Node;
+import org.w3c.dom.Element;
+import java.io.File;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Utility extends LoginPage {
 
-
-    public static void waitUntilElementDisplayed(WebDriver driver, int sec, By xpath){
+    public static void waitUntilElementDisplayed(WebDriver driver, int sec, By xpath) {
         WebDriverWait wait = new WebDriverWait(driver, sec);
         wait.until(ExpectedConditions.elementToBeClickable(xpath));
     }
 
-    public static void waitUntilElementDisappear(WebDriver driver, int sec, By xpath){
+    public static void waitUntilElementDisappear(WebDriver driver, int sec, By xpath) {
         WebDriverWait wait = new WebDriverWait(driver, sec);
         wait.until(ExpectedConditions.visibilityOfElementLocated(xpath));
 
     }
 
-
-
-    public static String toCurrency(double number){
+    public static String toCurrency(double number) {
         Locale loc = new Locale("en", "US");
         NumberFormat curForm = NumberFormat.getCurrencyInstance(loc);
         System.out.print("Converted to currency: " + curForm.format(number) + "\n");
         return curForm.format(number);
     }
 
-    public static void clickJs(WebDriver driver, String element){
+    public static void clickJs(WebDriver driver, String element) {
         WebElement button = driver.findElement(By.id(element));
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("arguments[0].click();", button);
     }
 
     public static void waitForUrlContains(WebDriver driver, String expectedString, int TIMEOUT) {
         WebDriverWait wait = new WebDriverWait(driver, TIMEOUT);
-        wait.until(ExpectedConditions.urlContains(expectedString));    }
+        wait.until(ExpectedConditions.urlContains(expectedString));
+    }
 
     public static File[] readAllNamesFilesFromDesktop() {
         File folder = new File(System.getProperty("user.home"), "/Desktop");
@@ -66,7 +73,7 @@ public class Utility extends LoginPage {
     }
 
     public static void deleteFileOnDesktop(File namefile) {
-        File xx = new File(System.getProperty("user.home"), "/Desktop/"+namefile);
+        File xx = new File(System.getProperty("user.home"), "/Desktop/" + namefile);
         if (xx.exists()) {
             xx.delete();
         }
@@ -83,6 +90,28 @@ public class Utility extends LoginPage {
         }
         return ph;
     }
+    public static ArrayList<String> collectElementTxtAmazon(WebDriver driver, String xpath) {
+        List<WebElement> textbooks = driver.findElements(By.xpath(xpath));
+        ArrayList<String> books = new ArrayList<String>();
+        System.out.println("Total No of links Available: " + textbooks.size());
+        for (int i = 0; i < textbooks.size(); i++) {
+            textbooks.get(i).getText();
+            books.add(textbooks.get(i).getText());
+            System.out.println(textbooks.get(i).getText());
+        }
+        return books;
+    }
+    public static ArrayList<String> collectElementDropDownMenuAmazon(WebDriver driver, String xpath) {
+        List<WebElement> MainMenuTitles = driver.findElements(By.xpath(xpath));
+        ArrayList<String> titles = new ArrayList<String>();
+        System.out.println("Total No of Elements Available: " + MainMenuTitles.size());
+        for (int i = 0; i < MainMenuTitles.size(); i++) {
+            MainMenuTitles.get(i).getText();
+            titles.add(MainMenuTitles.get(i).getText());
+            System.out.println(MainMenuTitles.get(i).findElements(By.xpath("//div[@class=\"hmenu-item hmenu-title\"]")));
+        }
+        return titles;
+    }
 
     public static void SendMailSSLWithAttachment() {
         // Create object of Property file
@@ -93,7 +122,7 @@ public class Utility extends LoginPage {
         // set the port of socket factory
         props.put("mail.smtp.socketFactory.port", "465");
         // set socket factory
-        props.put("mail.smtp.socketFactory.class","javax.net.ssl.SSLSocketFactory");
+        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         // set the authentication to true
         props.put("mail.smtp.auth", "true");
         // set the port of SMTP server
@@ -114,7 +143,7 @@ public class Utility extends LoginPage {
             // Set the from address
             message.setFrom(new InternetAddress(email));
             // Set the recipient address
-            message.setRecipients(Message.RecipientType.TO,InternetAddress.parse(email));
+            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email));
             // Add the subject link
             message.setSubject("Testing Subject");
             // Create object to add multimedia type content
@@ -127,9 +156,9 @@ public class Utility extends LoginPage {
             File xx = new File(System.getProperty("user.home"), "/Desktop/qastarting_repo/target/surefire-reports/");
             String filename = "emailable-report.html";
             // Create data source and pass the filename
-            DataSource source = new FileDataSource(xx+"/"+filename);
+            DataSource source = new FileDataSource(xx + "/" + filename);
             // set the handler
-            if(((FileDataSource) source).getFile().exists()) {
+            if (((FileDataSource) source).getFile().exists()) {
                 messageBodyPart2.setDataHandler(new DataHandler(source));
                 // set the file
                 messageBodyPart2.setFileName(filename);
@@ -144,11 +173,34 @@ public class Utility extends LoginPage {
                 // finally send the email
                 Transport.send(message);
                 System.out.println("\n" + ANSI_CYAN + "===Email Sent===" + ANSI_PURPLE + "===To: " + ANSI_PURPLE + email + " ===!" + ANSI_BLUE + "===With File: " + filename + ANSI_RESET + "\n");
+            } else {
+                System.out.println("\n" + ANSI_CYAN + "File doesn't exists " + ANSI_RESET + "\n");
             }
-            else { System.out.println("\n" + ANSI_CYAN + "File doesn't exists " + ANSI_RESET + "\n");
-            }
-            } catch (MessagingException e) {
+        } catch (MessagingException e) {
             throw new RuntimeException(e);
+        }
+    }
+
+    public static void ReadXMLFile(File file, String regex) {
+        try {
+            DocumentBuilder dBuilder = DocumentBuilderFactory.newInstance()
+                    .newDocumentBuilder();
+            Document doc = dBuilder.parse(file);
+            for (int count = 0; count < (doc.getChildNodes()).getLength(); count++) {
+
+                Node tempNode = (doc.getChildNodes()).item(count);
+                List<String> allMatches = new ArrayList<String>();
+                Matcher m = Pattern.compile(regex)
+                        .matcher(tempNode.getTextContent());
+                while (m.find()) {
+                    allMatches.add(m.group());
+                }
+                if(allMatches.size()!=0){
+                    System.out.println("Found in text: "+allMatches+"\n");}
+
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
     }
 }

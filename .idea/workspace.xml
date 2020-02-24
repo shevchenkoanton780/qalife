@@ -2,13 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c58da3c-77ca-4ef4-9302-9bf38298e8c6" name="Default" comment="added new methods">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/AmazonListOfTextbooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/AmazonTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/AmigoWages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/CelsiusToFahrenheitConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/WomanManWorkingWithObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/assigningObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/circleCircumference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/getWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/hackedSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/minOfFourNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/minOfThreeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/minOfTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/print3SameLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/CodeGymTasks/printThreeTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/appleTVPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qastarting-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/qastarting-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/common/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/AmazonListOfTextbooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/AmazonListOfTextbooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/LoginPageAT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/LoginPageAT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/SeleniumGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/SeleniumGrid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/Chrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/Chrome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/operadriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/operadriver" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,22 +50,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/test-classes/ui/AmazonListOfTextbooks.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#749#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,36 +83,12 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/common/ScreenshotListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/driver/factory/DriverBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/FoxJsoupTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/suites/Edge.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/suites/IE.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/webdriver/RepositoryMap.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/web/driver/factory/DriverThread.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/driver/factory/DriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/suites/Safari.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/RepositoryMap.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/suites/Firefox.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Regex.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Algoritms.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/driver/factory/DriverType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/common/Utility.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/suites/Chrome.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/LoginPageAT.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/AmazonListOfTextbooks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/pages/LoginPage.properties" />
+        <option value="Anton Sheva" />
       </list>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -108,96 +97,20 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="123" />
     <option name="y" value="23" />
-    <option name="width" value="1380" />
+    <option name="width" value="1253" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectId" id="1YEND9Wwqoy67BuKk42UB6RBO2Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="suites" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qalife copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qalife copy" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -205,7 +118,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -221,26 +134,56 @@
       <recent name="$PROJECT_DIR$/src/test/resources/suites" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.YelpFindAllNamesPhones">
-    <configuration name="RecursiveLinkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ui.RecursiveLinkTest" />
+  <component name="RunManager" selected="Application.ParseElements">
+    <configuration name="DecimaltoHexConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.DecimaltoHexConverter" />
       <module name="qastarting-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ui.*" />
+          <option name="PATTERN" value="common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTxtReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.apple.FileTxtReader" />
+      <module name="qastarting-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.apple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.apple.ParseElements" />
+      <module name="qastarting-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.apple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringParcer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.apple.StringParcer" />
+      <module name="qastarting-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.apple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,84 +197,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="javaTextPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.javaTextPattern" />
+      <module name="qastarting-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YelpFindAllNamesPhones" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qastarting-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.YelpFindAllNamesPhones" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YelpFindAllNamesPhones.verifyYelpPageAllLinks" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qastarting-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.YelpFindAllNamesPhones" />
-      <option name="METHOD_NAME" value="verifyYelpPageAllLinks" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YelpFindAllNamesPhones.yelpSearchJsoup" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qastarting-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.YelpFindAllNamesPhones" />
-      <option name="METHOD_NAME" value="yelpSearchJsoup" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YelpFindAllNamesPhones.yelpSearchSelenium" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qastarting-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.YelpFindAllNamesPhones" />
-      <option name="METHOD_NAME" value="yelpSearchSelenium" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -346,19 +228,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RecursiveLinkTest" />
-      <item itemvalue="TestNG.YelpFindAllNamesPhones" />
-      <item itemvalue="TestNG.YelpFindAllNamesPhones.verifyYelpPageAllLinks" />
-      <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchJsoup" />
-      <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchSelenium" />
+      <item itemvalue="Application.DecimaltoHexConverter" />
+      <item itemvalue="Application.FileTxtReader" />
+      <item itemvalue="Application.ParseElements" />
+      <item itemvalue="Application.StringParcer" />
+      <item itemvalue="Application.javaTextPattern" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.YelpFindAllNamesPhones" />
-        <item itemvalue="Application.RecursiveLinkTest" />
-        <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchSelenium" />
-        <item itemvalue="TestNG.YelpFindAllNamesPhones.verifyYelpPageAllLinks" />
-        <item itemvalue="TestNG.YelpFindAllNamesPhones.yelpSearchJsoup" />
+        <item itemvalue="Application.ParseElements" />
+        <item itemvalue="Application.StringParcer" />
+        <item itemvalue="Application.FileTxtReader" />
+        <item itemvalue="Application.DecimaltoHexConverter" />
+        <item itemvalue="Application.javaTextPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -457,432 +339,66 @@
       <option name="project" value="LOCAL" />
       <updated>1557545926751</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added new methods">
+      <created>1559538409426</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559538409427</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 21h 29m 12s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus_VerifyLogoTest - 2020.01.25 at 23h 39m 34s.xml">
+      <configuration name="appleTVPlus.VerifyLogoTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 21h 33m 13s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus_VerifyLogoTest - 2020.01.25 at 23h 40m 12s.xml">
+      <configuration name="appleTVPlus.VerifyLogoTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 21h 40m 51s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus_VerifyLogoTest - 2020.01.27 at 10h 25m 09s.xml">
+      <configuration name="appleTVPlus.VerifyLogoTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 21h 42m 06s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus_VerifyLandingPageHeaderTVElement - 2020.01.27 at 11h 23m 28s.xml">
+      <configuration name="appleTVPlus.VerifyLandingPageHeaderTVElement" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 21h 42m 34s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus - 2020.01.27 at 11h 23m 54s.xml">
+      <configuration name="appleTVPlus" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 21h 45m 08s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus - 2020.01.27 at 11h 25m 33s.xml">
+      <configuration name="appleTVPlus" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 21h 45m 34s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus - 2020.01.27 at 11h 28m 22s.xml">
+      <configuration name="appleTVPlus" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 21h 46m 23s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus_VerifyLandingPageAppleTV - 2020.01.27 at 11h 39m 31s.xml">
+      <configuration name="appleTVPlus.VerifyLandingPageAppleTV" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 21h 47m 24s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus - 2020.01.28 at 08h 57m 46s.xml">
+      <configuration name="appleTVPlus" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YelpFindAllNamesPhones - 2019.06.02 at 22h 03m 36s.xml">
-      <configuration name="YelpFindAllNamesPhones" configurationId="TestNG" />
+    <history-entry file="appleTVPlus_VerifyLandingPageHeaderTVElement - 2020.02.16 at 08h 44m 37s.xml">
+      <configuration name="appleTVPlus.VerifyLandingPageHeaderTVElement" configurationId="TestNG" />
     </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1380" height="797" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31838566" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8413425" weight="0.26666668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.17570755" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.1586575" side_tool="true" weight="0.2638298" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49961862" weight="0.28936172" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32900944" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.13974153" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.36870998" />
-      <window_info anchor="right" id="Maven" order="9" weight="0.10929368" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19444445" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8427907" visible="true" weight="0.33858266" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.17570755" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.1572093" side_tool="true" weight="0.30577427" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.29245284" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32900944" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.108333334" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.36870998" />
-    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new methods" />
     <option name="LAST_COMMIT_MESSAGE" value="added new methods" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/unit/unitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oop/DynamicPolymorphism_OOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oop/StaticPolymorphism_OOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oop/InterfacesOOPTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/ScreenshotListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/FoxJsoupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SeleniumGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" />
-    <entry file="file://$PROJECT_DIR$/target/failsafe-reports/testng-failed.xml" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ResourceBundle.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Edge.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/IE.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Safari.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/webdriver/RepositoryMap.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/RepositoryMap.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.141.5/selenium-firefox-driver-3.141.5.jar!/org/openqa/selenium/firefox/FirefoxDriver.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.5/selenium-remote-driver-3.141.5.jar!/org/openqa/selenium/remote/service/DriverCommandExecutor.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.141.5/selenium-firefox-driver-3.141.5.jar!/org/openqa/selenium/firefox/XpiDriverService.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.5/selenium-remote-driver-3.141.5.jar!/org/openqa/selenium/net/UrlChecker.class" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/oop/Abstraction_OOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Regex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Algoritms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#2866#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qastarting">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qastarting-test.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2838" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/suites/Safari.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3810">
-          <caret line="254" column="92" selection-start-line="254" selection-start-column="92" selection-end-line="254" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Firefox.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SeleniumGrid2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="39" lean-forward="true" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/InterfacesOOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/common/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/annotations/Parameters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#476#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/annotations/Parameters.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/AmazonListOfTextbooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/Chrome.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="46" column="132" selection-start-line="46" selection-start-column="132" selection-end-line="46" selection-end-column="132" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/LoginPageAT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/ui/YelpFindAllNamesPhones.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#3334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/pages/Page.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/pages/LoginPage.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="69" column="67" selection-start-line="69" selection-start-column="67" selection-end-line="69" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/driver/factory/DriverBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/FoxSeleniumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/TxtCreateReadModifyDeleteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/YelpFindAllNamesPhones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/ui/AmazonListOfTextbooks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="42" y="29" key="CommitChangelistDialog2" timestamp="1582504505979">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="42" y="29" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1582504505979" />
+    <state x="374" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1582504371890">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="374" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1582504371890" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qalife_copy$AreaCalculator.ic" NAME="AreaCalculator Coverage Results" MODIFIED="1577073878502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>common.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>
@@ -940,7 +456,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -948,7 +463,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
