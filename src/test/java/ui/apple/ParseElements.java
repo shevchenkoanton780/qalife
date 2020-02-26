@@ -23,7 +23,8 @@ public class ParseElements {
                 String s[] = input.nextLine().split(" ");
                 for (String text : s) {
                     arr.add(text);
-                   System.out.println(s);
+
+                 System.out.println(s);
                 }
 
             }
@@ -31,8 +32,10 @@ public class ParseElements {
             // here you can get the value by get method
            // System.out.println(arr.get(Integer.parseInt("vegetables")));
             System.out.println(arr);
-        } catch (Exception ex) {
             System.out.println(arr.get(Integer.parseInt("vegetables")));
+        } catch (Exception ex) {
+
+
             ex.printStackTrace();
         }
 
